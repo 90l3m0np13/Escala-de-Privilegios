@@ -24,6 +24,8 @@ Este repositorio documenta un ejercicio práctico de escalada de privilegios en 
 * Generación de un archivo ZIP con los datos recopilados.
 * Importación del archivo ZIP a la interfaz de BloodHound.
 * Análisis de las relaciones de confianza y búsqueda de posibles caminos de ataque.
+
+
   ![imagen](https://github.com/90l3m0np13/Escala-de-Privilegios/blob/main/Bloodhound)
 
 ### 3. Enumeración Detallada con PowerView
@@ -40,6 +42,7 @@ Este repositorio documenta un ejercicio práctico de escalada de privilegios en 
 * Ejecución del comando `Runas` para ejecutar un proceso con las credenciales del usuario privilegiado.
     * *Ejemplo de comando: `runas /user:dominio\usuario_privilegiado cmd.exe`.*
 * Acceso completo al sistema con privilegios de administrador.
+
   ![imagen](https://github.com/90l3m0np13/Escala-de-Privilegios/blob/main/CmdPrivilegios.png)
 
 ## Medidas de Mitigación
