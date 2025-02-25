@@ -24,7 +24,7 @@ Este repositorio documenta un ejercicio práctico de escalada de privilegios en 
 * Generación de un archivo ZIP con los datos recopilados.
 * Importación del archivo ZIP a la interfaz de BloodHound.
 * Análisis de las relaciones de confianza y búsqueda de posibles caminos de ataque.
-    * *Captura de pantalla de BloodHound mostrando un posible camino de ataque.*
+  ![imagen](https://github.com/90l3m0np13/Escala-de-Privilegios/blob/main/Bloodhound)
 
 ### 3. Enumeración Detallada con PowerView
 
@@ -33,15 +33,14 @@ Este repositorio documenta un ejercicio práctico de escalada de privilegios en 
     * `Get-DomainGroupMember`: Enumeración de miembros de grupos específicos.
     * `Find-InterestingDomainAcl`: Búsqueda de listas de control de acceso (ACL) interesantes.
 * Análisis de la información recopilada para identificar usuarios con privilegios elevados.
-    * *Ejemplo de salida de los comandos de PowerView.*
-
+   
 ### 4. Escalada de Privilegios con Runas
 
 * Identificación de un usuario con privilegios elevados.
 * Ejecución del comando `Runas` para ejecutar un proceso con las credenciales del usuario privilegiado.
     * *Ejemplo de comando: `runas /user:dominio\usuario_privilegiado cmd.exe`.*
 * Acceso completo al sistema con privilegios de administrador.
-    * *Captura de pantalla de la consola de comandos con privilegios elevados.*
+  ![imagen](https://github.com/90l3m0np13/Escala-de-Privilegios/blob/main/CmdPrivilegios.png)
 
 ## Medidas de Mitigación
 
