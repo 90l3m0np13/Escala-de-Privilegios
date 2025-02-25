@@ -1,5 +1,5 @@
 # Escalada de Privilegios en Active Directory
-
+![imagen](https://github.com/90l3m0np13/Troll1/blob/main/Portada_LoL.jpeg)
 ## Descripción General
 
 Este repositorio documenta un ejercicio práctico de escalada de privilegios en un entorno de dominio de Windows. El objetivo es demostrar cómo un atacante podría obtener acceso de administrador desde una cuenta de usuario estándar utilizando una combinación de herramientas y técnicas.
